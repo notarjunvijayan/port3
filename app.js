@@ -8,26 +8,33 @@ document.addEventListener('mousemove',(e) =>{
 })
 
 
-//Navbar
 
-const sections = document.querySelectorAll('section1')
-const navLi = document.querySelectorAll('nav ul li')
 
-window.addEventListener('scroll',()=> {
-    let current = '';
+let intro = document.querySelector('.intro')
+let logo = document.querySelector('.Welcome')
+let logospan = document.querySelectorAll('.logo')
 
-    sections.forEach(section =>{
-        const sectop = section.offsetTop;
-        const sechgt = section.clientHeight;
+window.addEventListener('DOMContentLoaded',()=>{
 
-        if(pageYOffset >= (sectop - sechgt / 3)){
-            current = section.getAttribute('id');
-        }
+    setTimeout(()=>{
+        
+        logospan.forEach((span, idx)=>{
+             setTimeout(()=>{
+                span.classList.add('active');
+             }, (idx +1) *400)
+        })
     })
-    navLi.forEach(li =>{
-        li.classList.remove('active');
-        if(li.classList.contains(current)){
-            li.classList.add('active');
-        }
-    })
+    setTimeout(()=>{
+        
+        logospan.forEach((span, idx)=>{
+             setTimeout(()=>{
+                span.classList.remove('active');
+                span.classList.add('fade');
+             }, (idx +1) *50)
+        })
+    },4000)
+
+    setTimeout(()=>{
+        intro.style.top = '-100vh';
+    }, 4900)
 })

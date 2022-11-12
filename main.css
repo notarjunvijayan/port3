@@ -9,7 +9,10 @@ body{
     font-family: 'Poppins', sans-serif;
     margin:0%;
 }
-
+span{
+    margin: 0%;
+    padding: 0%;
+}
 
 
 a:hover {
@@ -28,6 +31,39 @@ a:hover {
 }
 ul li:hover ~.cursor{
     transform: scale(4);
+}
+
+
+.intro{
+    position: fixed;
+    width:100vw;
+    height:100vh;
+    left:0;
+    top:0;
+    z-index: 1;
+    background-color: #08415C;
+    transition: 1s;
+}
+.Welcome{
+    position: absolute;
+    margin-top:30vh;
+    margin-left: 22.5vw;
+}
+.logo{
+    position: relative;
+    display: inline-block;
+    bottom: -10vh;
+    opacity:0;
+}
+.logo.active {
+    bottom: 0vh;
+    opacity:1;
+    transition: cubic-bezier(.01,-0.42,0,.99) 0.9s;
+}
+.logo.fade{
+    bottom: 10vh;
+    opacity: 0;
+    transition: ease-in-out 0.3s;
 }
 
 
@@ -100,5 +136,21 @@ nav a:active{
     justify-content: center;
     height:100vh;
     margin-top: 15vh;
-    padding:20vh 10vw 0 10vw;
+    padding:20vh 10vw 0 15vw;
+}
+
+.cv{
+    width:10vw;
+    height:5vh;
+    padding:1vh 1vw 1vh 1vw;
+    margin-top: 10vh;
+    border-radius: 0%;
+    border: 2px solid #08415C;
+    background-color: #260320;
+    color:#2bcfae;
+    font-family: 'Poppins',sans-serif;
+}
+.cv:hover{
+    cursor: none;
+    background-color: #08415C;
 }
