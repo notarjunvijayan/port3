@@ -32,9 +32,9 @@ window.addEventListener('DOMContentLoaded',()=>{
                 span.classList.add('fade');
              }, (idx +1) *50)
         })
-    },4000)
+    },3000)
 
     setTimeout(()=>{
         intro.style.top = '-100vh';
-    }, 4900)
+    }, 3900)
 })
