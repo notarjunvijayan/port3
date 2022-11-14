@@ -2,6 +2,7 @@
 html {
     scroll-behavior: smooth;
     cursor: none;
+    overflow-x: hidden;
 }
 body{
     background-color: #260320;
@@ -9,6 +10,7 @@ body{
     font-size: 1.2vw;
     margin:0%;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 span{
     margin: 0%;
