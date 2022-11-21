@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&family=Oswald:wght@300&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,700&family=Montserrat:wght@500&display=swap');
 html {
     scroll-behavior: smooth;
     cursor: none;
@@ -111,7 +112,7 @@ h2{
     top:0%;
     left:0%;
     height:100vh;
-    width:20vw;
+    width:19vw;
     padding-top: 25vh;
     line-height: 1;
 }
@@ -190,34 +191,60 @@ img{
     font-family: 'Oswald','sans-serif';
     font-size: 1.5rem;
 }
+.colorsel{
+    background-color: #254D32;
+    color: #5CDB95;
+    height:100vh;
+    padding:3vh 5vw 0 2vw;
+    font-family: monospace;
+    font-size: 1.5rem;
+}
 h3{
-    font-family: 'Dancing Script',cursive;
     font-size:4vw;
     line-height: 1;
     margin-top: 2vh;
     margin-bottom:0;
 }
+.notes h3{
+    font-family: 'Dancing Script',cursive;
+}
+.colorsel h3{
+    font-family: monospace;
+}
 .seewindow{
     display: flex;
     margin-top: 10vh;
 }
-.buttons{
+.buttons-notes,.buttons-color{
     padding: 10vh 0;
 }
-.buttons button{
+.buttons-notes button,.buttons-color button{
     display:inline-block;
     padding:0.35em 1.2em;
     margin:0 0.3em 0.3em 0;
+    box-sizing: border-box;
+    cursor: none;
+}
+.buttons-notes button{
     background-color: #DBCFB0;
     color: #262523;
-    cursor: none;
     border: 1px solid #262523;
-    box-sizing: border-box;
     font-family: 'Oswald','sans-serif';
 }
-.buttons button:hover{
+.buttons-notes button:hover{
     background-color: #262523;
     color: #DBCFB0;
+}
+
+.buttons-color button{
+    background-color: #254D32;
+    color: #5CDB95;
+    border: 1px solid #5CDB95;
+    font-family: 'Lora','serif';
+}
+.buttons-color button:hover{
+    background-color:#5CDB95;
+    color: #254D32;
 }
 
 .ContactPage{
@@ -246,6 +273,7 @@ h3{
     text-decoration: none;
     color:#DBCFB0
 }
+
 
 
 
@@ -300,7 +328,7 @@ h3{
     h3{
         font-size: 10vw;;
     }
-    .notes{
+    .notes,.colorsel{
         width:100vw;
         padding:5vh 25vw;
         font-size: 5vw;
