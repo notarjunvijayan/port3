@@ -196,8 +196,8 @@ img{
     color: #5CDB95;
     height:100vh;
     padding:3vh 5vw 0 2vw;
-    font-family: monospace;
-    font-size: 1.5rem;
+    font-family: 'Lora',serif;
+    font-size: 1.2rem;
 }
 h3{
     font-size:4vw;
