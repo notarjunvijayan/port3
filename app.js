@@ -38,3 +38,4 @@ window.addEventListener('DOMContentLoaded',()=>{
         intro.style.top = '-100vh';
     }, 3900)
 })
+
