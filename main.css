@@ -21,7 +21,10 @@ span{
     background-color: #b0e413;
     color: #08415C;
 }
-
+::selection{
+    background-color: #b0e413;
+    color: #08415C;
+}
 
 a:hover {
     cursor: none;
