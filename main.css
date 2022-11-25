@@ -35,8 +35,8 @@ a:hover {
   }
 .cursor{
     position:fixed;
-    width:15px;
-    height:15px;
+    width:1.2vw;
+    height:1.2vw;
     background-color: #b0e413;
     border-radius: 50%;
     transition: 0.1s;
@@ -139,6 +139,7 @@ nav a{
 }
 nav a:hover{
     color:#2bcfae;
+    transition: 0.5s;
 }
 nav a:active{
     color:white;
@@ -185,6 +186,7 @@ nav a:active{
 .cv:hover{
     cursor: none;
     background-color: #08415C;
+    transition: 0.5s;
 }
 
 img{
