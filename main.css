@@ -13,6 +13,12 @@ body{
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
+button:focus{
+    outline: none;
+}
+input:focus{
+    outline:none;
+}
 span{
     margin: 0%;
     padding: 0%;
@@ -277,11 +283,11 @@ h3{
     width:60vw;
     margin-right: 5vw;
 }
-h4{
+.h4{
     display: flex;
     justify-content: flex-start;
-    font-size: 2vw;
-    font-style: 'Bebas Neue';
+    font-size: 2.2vw;
+    font-family: "Bebas Neue";  
     font-weight: 300;
     line-height: 0.9;
     margin: 0%;
@@ -301,15 +307,22 @@ h4{
 .form input{
     display:grid;
     background-color: #262523;
-    border: 1px solid #2bcfae;
+    border: 0.5px solid #2bcfae;
     color: #2bcfae;
     font-family: 'Poppins', sans-serif;
     font-size: 0.9vw;
     width:25vw;
     margin-top: 0.2vw;
+    padding: 0 0.5vw;
 }
+.form input:focus{
+    background-color: #2bcfae;
+    color: #262523;
+    border: 0.5px solid black;
+}
+
 .form{
-    margin-top: 5vh;
+    margin-top: 4vh;
 }
 .form button{
     display:flex;
@@ -340,6 +353,16 @@ h4{
 }
 .message{
     height: 10vw;
+    width:25vw;
+    background-color: #262523;
+    border: 0.5px solid #2bcfae;
+    color: #2bcfae;
+    padding: 0.1vw 0.5vw;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9vw;
+}
+.message:focus{
+    outline: none;
 }
 
 @media screen and (max-width :420px){
