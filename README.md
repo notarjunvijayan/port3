@@ -1,11 +1,15 @@
 # Portfolio v3
 
-New portfolio webpage using HTML,CSS, and JavaScript.
+A brand new portfolio webpage, where I showcase all my projects.<br>
 The Webpage is ~~not~~ Responsive as of now.
 
-Link: https://port3-notarjunvijayan.vercel.app/
+### Technologies Used
+HTML, CSS, JS
+
+### Link 
+https://port3-notarjunvijayan.vercel.app/
 
 ## Screenshot
-Screenshot of thebpage given below
+Screenshot of the webpage given below
 
 ![Picture](Images/Picture.png)
