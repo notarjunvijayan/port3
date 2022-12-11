@@ -7,7 +7,7 @@ The Webpage is ~~not~~ Responsive as of now.
 HTML, CSS, JS
 
 ### Link 
-https://port3-notarjunvijayan.vercel.app/
+www.notarjunvijayan.me
 
 ## Screenshot
 Screenshot of the webpage given below
