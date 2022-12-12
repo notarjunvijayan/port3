@@ -72,6 +72,10 @@ ul li:hover ~.cursor{
     margin-left:3vw;
     min-width: 60%;
     line-height: 5vh;
+    color:#b0e413;
+    font-size:18vw;
+    font-weight: 400;
+    font-family: "Bebas Neue";
 }
 .logo{
     font-size: 25vw;
