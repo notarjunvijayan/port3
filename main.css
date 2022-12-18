@@ -181,7 +181,11 @@ nav a:active{
         margin-top: 15vh;
         margin-right: 0;
 }
-
+#Skills{
+    padding-right:0px;
+    margin-right: 0%;
+    padding-bottom: 15vh;
+}
 .cv{
     display:inline-block;
     padding:0.35em 1.2em;
@@ -192,13 +196,24 @@ nav a:active{
     background-color: #260320;
     color:#2bcfae;
     font-family: 'Poppins',sans-serif;
+    text-decoration: none;
 }
 .cv:hover{
     cursor: none;
     background-color: #08415C;
     transition: 0.5s;
 }
-
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    row-gap: 20vh;
+    column-gap: 15vw;
+    margin-top: 15vh;
+}
+.grid i{
+    font-size: 2vw;
+}
 img{
     width:60vw;
     max-width:918px;
@@ -412,6 +427,15 @@ h3{
     }
     h2{
         font-size: 20vw;
+    }
+    .grid{
+        font-size: 3vw;
+        row-gap: 20vh;
+        column-gap: 15vw;
+        margin-top: 15vh;
+    }
+    .grid i{
+        font-size: 7vw;
     }
     .sect-proj{
         text-align: center;
