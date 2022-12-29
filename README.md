@@ -12,4 +12,5 @@ www.notarjunvijayan.me
 ## Screenshot
 Screenshot of the webpage given below
 
-![Picture](Images/Picture.png)
+![Picture](https://user-images.githubusercontent.com/85212070/209901748-13d51532-e0ac-48a1-bde7-b424a49cb249.png)
+
