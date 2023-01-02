@@ -409,7 +409,7 @@ h3{
     outline: none;
 }
 
-@media screen and (max-width :420px){
+@media (max-width :420px){
     body{
         font-size: 5vw;
     }
@@ -445,7 +445,7 @@ h3{
         align-items: center;
         height:100vh;
         margin-top: 15vh;
-        padding:0vh 5vw 0 5vw;
+        padding:0vh 0vw 0 0vw;
     }
     h1{
         font-size:30vw;
@@ -490,9 +490,36 @@ h3{
         display:block;
         padding: 20vh 25vw;
     }
+    .links{
+        display: block;
+    }
     .link{
-        font-size: 8vw;
+        display: flex;
+        font-size: 4vw;
         padding:0 7vw;
-        margin:0;
+        margin:10vh 10vw 0 -10vw;
+    }
+    .link a{
+        margin: 0 5vw 0 0;
+    }
+    .form{
+        display: flex;
+        justify-content: center;
+        height:30vh;
+    }
+    .h4{
+        font-size: 8vw;
+    }
+    .form-item label{
+        font-size: 4vw;
+    }
+    .form-item input{
+        width:70vw;
+        height: 3vh;
+        font-size: 3.5vw;
+    }
+    .form-item textarea{
+        width:70vw;
+        height:15vh;
     }
 }
