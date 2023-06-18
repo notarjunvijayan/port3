@@ -1,7 +1,7 @@
 # Portfolio v3
 
 A brand new portfolio webpage, where I showcase all my projects.<br>
-The Webpage is ~~not~~ Responsive as of now.
+The Webpage is Responsive as of now.
 
 ### Technologies Used
 HTML, CSS, JS
